@@ -1,0 +1,308 @@
+:root {
+    --main-font: 'Montserrat', sans-serif;
+    --accent-font: 'Baskervville', serif;
+    --cursive-font: 'Sacramento', cursive;
+    --off-black: #272727;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: var(--main-font);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.resume {
+    font-size: 2.5em;
+}
+
+.resume p {
+    margin-bottom: 2.5vw;
+}
+
+.resume a:hover {
+        color: #fff;
+    background-color: #000;
+    transition: .3s;
+    margin: -2.5vw;
+    padding: 2.5vw;
+}
+
+.attributes a li:hover {
+    color: #fff;
+    background-color: #000;
+    transition: .3s;
+}
+
+
+
+.banner {
+    display: flex;
+    
+}
+
+.banner img {
+    height: 20vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.banner .TextOverlay {
+    z-index: 2;
+    position: absolute;
+    width: 50vw;
+    right: 0vw;
+    margin: 5vw;
+}
+
+.intro {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.intro h1 {
+/*    text-align: center;*/
+    
+    font-family: var(--accent-font);
+    font-size: 7em;
+    font-weight: 200;
+    color: var(--off-black);
+    margin: 15vw 3vw 0vw 10vw;
+}
+
+.intro h2 {
+    font-family: var(--accent-font);
+    font-size: 7em;
+    font-weight: 200;
+    color: var(--off-black);
+    margin: 0vw 3vw 2vw 10vw;
+}
+
+#cursive {
+    font-family: var(--cursive-font);
+    font-size: 1.5em;
+    color: var(--off-black);
+    transform: rotate(-15deg); 
+    display: inline-block
+}
+
+.intro p {
+    padding: 10vw;
+    width: 60vw;
+        margin: 0 auto;
+    line-height: 2;
+    font-size: 2em;
+    text-align: center;
+    background-color: var(--off-black);
+    color: #fff;
+}
+
+
+
+.attributes {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15vw;
+}
+
+.attributes ul {
+    background-color: transparent;
+}
+
+.attributes ul li {
+    margin: 2.5vw 10vw;
+    font-size: 5em;
+    text-align: right;
+    color: var(--off-black);
+    font-family: var(--accent-font)
+}
+
+#watermark {
+    color: rgba(0, 0, 0, 0.03);
+    position: absolute;
+    right: 0;
+    font-size: 45em;
+    justify-content: center;
+    z-index: -1;
+}
+
+.resume {
+    text-align: right;
+    padding: 10vw;
+    margin: 15vw 0vw 15vw 35vw;
+    border: 1px solid var(--off-black);
+}
+
+
+.RightImage h1 {
+    margin-top: 5vw;
+    font-size: 5em;
+    font-family: var(--accent-font) !important;
+    
+}
+
+
+
+
+
+/*RESPONSIVE SECTION*/
+/*
+@media only screen and (min-width: 768px) {
+
+}
+*/
+
+@media only screen and (min-width: 1200px) {
+    .banner img {
+        height: 50vh;
+    }
+    
+    .RightImage {
+        background-color: #eeeeef;
+        display:flex;
+        flex-direction: row-reverse;
+/*        padding: 150px 150px;*/
+    }
+    
+    
+.RightImage h1 {
+    margin-top: 5vw;
+    font-size: 5em;
+    line-height: 1 !important;
+    font-family: var(--accent-font) !important;
+    
+}
+    
+    .LeftImage {
+        display:flex;
+        flex-direction: row;
+/*        padding: 150px 150px;*/
+    }
+    
+    .intro h1 {
+        margin-top: 5vw;
+    }
+    
+    .intro p {
+        width: 50vw;
+    }
+    
+    .attributes {
+        margin-top: 5vw;
+}
+    
+    .attributes ul {
+        flex-direction: column;
+        align-self: flex-end
+        margin: 0;
+    }
+    
+    .attributes ul a {
+        padding: 0;
+        margin: 0;  
+    }
+    
+    .attributes ul li {
+        margin: 0;
+        border: none;
+        font-size: 7.5em;
+/*        padding-right: 0;*/
+    }
+    
+    #watermark {
+        position: relative;
+        left: 25vw;
+        top: 0;
+        font-size: 60em;
+        
+    }
+    
+    .footer ul li {
+        border: none;
+
+    }
+    
+
+    
+    .resume {
+        margin-top: 0;
+    }
+    
+
+    
+}
+
+@media only screen and (min-width: 2000px) {
+    .banner img {
+        height: 50vh;
+    }
+    
+    .RightImage {
+        background-color: #eeeeef;
+        display:flex;
+        flex-direction: row-reverse;
+/*        padding: 150px 150px;*/
+    }
+    
+    .LeftImage {
+        display:flex;
+        flex-direction: row;
+/*        padding: 150px 150px;*/
+    }   
+    
+    .intro h1 {
+        margin-top: 5vw;
+        
+    }
+    
+    .intro p {
+        width: 50vw;
+    }
+    
+    .attributes ul {
+        flex-direction: column;
+        align-self: flex-end
+        margin: 0;
+        margin-right: 5vw;
+    }
+    
+    .attributes ul a {
+        padding: 0;
+        margin: 0;  
+    }
+    
+    .attributes ul li {
+        margin: 0;
+        border: none;
+        font-size: 7.5em;
+/*        padding-right: 0;*/
+    }
+    
+    #watermark {
+        position: relative;
+        left: 25vw;
+        top: 0;
+        font-size: 90em;
+        
+    }
+    
+    .footer ul li {
+        border: none;
+
+    }
+    
+    #BalanceImageSpace {
+/*        margin-top: 30vw !important;*/
+    }
+
+}
+
+
+

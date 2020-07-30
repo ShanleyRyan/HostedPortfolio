@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>dog</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dog" transform="translate(4.000000, 4.000000)" stroke="#FFFFFF">
+            <path d="M153.48,31.39 C153.48,31.39 148.27,75.48 148.27,94.16 C148.548565,108.405704 160.176573,119.808556 174.425,119.808556 C188.673427,119.808556 200.301435,108.405704 200.58,94.16 C200.58,75.48 174.42,64.08 174.42,31.39" id="Path" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M200,40 C200,42.209139 198.209139,44 196,44 C193.790861,44 192,42.209139 192,40 C192,37.790861 193.790861,36 196,36 C198.209139,36 200,37.790861 200,40 Z" id="Path" fill="#FFFFFF"></path>
+            <path d="M40,204 C40,212.5 36.4,215.66 32,216 C25.5,216.5 21.8,213 20,208 C20,208 16,200 16,176 C15.8549992,171.643196 12.3568036,168.145001 8,168 C3.581722,168 0,171.581722 0,176 L0,208.16 C0,228 14.74,240 28,240 L57.15,240" id="Path" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M74.23,182.39 L76.54,176.61 C84.63,161.38 103.66,160.42 117.32,171.16 C129.86,181 130.92,197.8 122.79,206.67 C118.225279,211.502594 113.279339,215.960294 108,220 L132,224 C144,226.34 144,233.91 144,237.91 C144,242.91 140,248 132,248 L56,248 C56,240 60,232 64,220" id="Path" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M232,40.51 L232,48 C232,53.5228475 236.477153,58 242,58 L248,58" id="Path" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M188,116.5 L188,132 C188,148 184,156 176,168 L176,220 L188,224 C200,228 200,233.91 200,237.91 C200,242.91 196,248 188,248 L144,248 L144,168 C144,156 140,148 136,144" id="Path" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M45.23,223.19 C41.741189,215.959925 39.9522419,208.027672 39.9990683,200 C39.9990683,157 67,141.34 84,124 C108,99.52 124,75.85 133.34,41.84 C138.64,22.55 148.63,0 174.78,0 C200.93,0 216.63,20 216.63,40 L221.84,40 C248,40 248,47.55 248,57.55 C248,67.55 236.91,87.55 216,88" id="Path" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

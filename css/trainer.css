@@ -1,0 +1,247 @@
+.LeftImage {
+    width: 100%;
+    padding: 20vw 0;
+    display:flex;
+    flex-direction: column;
+}
+
+.LeftImage img {
+    width: 100vw;
+    object-fit: cover;
+}
+
+.LeftImage p {
+    padding: 5vw;
+    line-height: 2;
+    margin: auto 0;
+}
+.RightImage {
+    background-color: #eeeeef;
+    display:flex;
+    flex-direction: column;
+    padding: 15vw 0;
+    width: 100%;
+
+}
+
+.RightImage {
+    width: 100%;
+    padding: 20vw 0;
+    display:flex;
+    flex-direction: column;
+}
+
+.RightImage img {
+    width: 100vw;
+    object-fit: cover;
+}
+
+.RightImage p {
+    padding: 5vw;
+    line-height: 2;
+    margin: auto 0;
+}
+
+.RightImage h1 {
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+.courses {
+    padding: 5vw;
+}
+
+.trainer-intro .opening h1 {
+    font-family: var(--accent-font);
+    font-size: 5em;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.trainer-intro .opening {
+    display:block;
+    margin: auto 0;
+}
+
+.trainer-intro {
+    display: flex;
+    flex-direction: row;
+    margin: 15vw 10vw;
+}
+#lines {
+    font-size: 1em;
+    line-height: 2;
+    padding-left: 2vw;
+}
+
+.TopBadgeLight {
+    position: relative;
+    top: -12.5vw;
+    margin: 0 auto;
+    width: 25vw;
+    height: 25vw;
+    transform: rotate(45deg);
+    background-color: #fff; 
+    z-index: 2;
+}
+
+.BottomBadgeDark {
+    position: relative;
+    top: 12.5vw;
+    margin: 0 auto;
+    width: 25vw;
+    height: 25vw;
+    transform: rotate(45deg);
+    background-color: var(--off-black); 
+    z-index: 2;
+}
+
+
+.IconContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    background-color: var(--off-black);
+    display: block;
+}
+
+.icons ul li h2 {
+    font-size: 2em;
+    margin: 0;
+    
+}
+
+
+.icons ul li svg {
+    transform: scale(0.75);
+}
+
+#LeftImageBalance {
+    margin-top: 20vw;
+}
+
+/*RESPONSIVE SECTION*/
+/*
+@media only screen and (min-width: 768px) {
+
+}
+*/
+
+/*
+@media only screen and (min-width: 992px) {
+
+}
+*/
+
+@media only screen and (min-width: 1200px) {
+    .banner img {
+        height: 50vh;
+    }
+    
+    .RightImage {
+        background-color: #eeeeef;
+        display:flex;
+        flex-direction: row-reverse;
+        padding: 10vw 0;
+/*        padding: 150px 150px;*/
+    }
+    
+    .RightImage img {
+        max-width: 50% !important;
+    }
+    
+    .RightImage p {
+        font-size: 1.5em;
+        line-height: 3;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .RightImage h1 {
+        padding: 5vw;
+        line-height: 2;
+        margin: 0 auto;
+        display: block;
+        position: absolute!important;
+        left: 0 !important;
+    }
+    
+    .LeftImage {
+        display:flex;
+        flex-direction: row;
+/*        padding: 150px 150px;*/
+                padding: 10vw 0;
+
+    }
+        
+    .LeftImage img {
+        max-width: 50% !important;
+    }
+    .LeftImage p {
+        font-size: 1.5em;
+        line-height: 2;
+    }
+    
+    .TopBadgeLight {
+    position: relative;
+    top: -2.5vw;
+    margin: 0 auto;
+    width: 5vw;
+    height: 5vw;
+    transform: rotate(45deg);
+    background-color: #fff; 
+    z-index: 2;
+}
+
+.BottomBadgeDark {
+    position: relative;
+    top: 2.5vw;
+    margin: 0 auto;
+    width: 5vw;
+    height: 5vw;
+    transform: rotate(45deg);
+    background-color: var(--off-black); 
+    z-index: 2;
+}
+    
+    .IconContent {
+        flex-direction: row;
+        width: 80vw;
+        padding: 0;
+        
+    }
+    
+    .IconBundle {
+        width: 20vw !important;
+        margin: 5vw;
+    }
+    
+    .IconBundle svg {
+        width: 15vw !important;
+/*
+        padding: 5vw;
+        margin: 0 auto !important;
+*/
+    }
+    
+    #lines {
+        line-height: 3;
+        width: 35vw;
+        margin: auto 0;
+        font-size: 1.5em
+    }
+    
+    .trainer-intro {
+/*        margin: 0 auto;*/
+/*        width: auto*/
+        justify-content: center
+    }
+    
+    #LeftImageBalance {
+        padding: 0;
+        margin-top: 10vw;
+    }
+
+}

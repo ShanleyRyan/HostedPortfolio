@@ -1,0 +1,149 @@
+.TopBadgeLight {
+    position: relative;
+    top: -12.5vw;
+    margin: 0 auto;
+    width: 25vw;
+    height: 25vw;
+    transform: rotate(45deg);
+/*    background-color: var(--off-black);*/
+    z-index: 2;
+}
+
+.BottomBadgeDark {
+    position: relative;
+    top: 12.5vw;
+    margin: 0 auto;
+    width: 25vw;
+    height: 25vw;
+    transform: rotate(45deg);
+    background-color: #fff;
+    z-index: 2;
+}
+
+
+.IconContent {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.icons {
+    display: block;
+}
+
+.icons ul li h2 {
+    font-size: 2em;
+    margin: 0;
+    color: var(--off-black);
+
+    
+}
+
+
+.icons ul li svg {
+    transform: scale(.75);
+}
+
+
+
+.program {
+    background-color: var(--off-black);
+    color: #fff;
+    padding: 25vw 10vw;
+    margin: 0vw 0 5vw 0;
+}
+
+.certifications {
+    font-family: var(--main-font);
+    margin: 5vw;
+}
+
+
+/*RESPONSIVE SECTION*/
+/*
+@media only screen and (min-width: 768px) {
+
+}
+*/
+
+/*
+@media only screen and (min-width: 992px) {
+
+}
+*/
+
+@media only screen and (min-width: 1200px) {
+    .banner img {
+        height: 50vh;
+    }
+    
+    .RightImage {
+        background-color: #eeeeef;
+        display:flex;
+        flex-direction: row-reverse;
+        padding: 150px 150px;
+    }
+    
+    .LeftImage {
+        display:flex;
+        flex-direction: row;
+        padding: 150px 150px;
+    }
+    
+    .TopBadgeLight {
+    position: relative;
+    top: -2.5vw;
+    margin: 0 auto;
+    width: 5vw;
+    height: 5vw;
+    transform: rotate(45deg);
+/*    background-color: var(--off-black);*/
+    z-index: 2;
+}
+
+.BottomBadgeDark {
+    position: relative;
+    top: 2.5vw;
+    margin: 0 auto;
+    width: 5vw;
+    height: 5vw;
+    transform: rotate(45deg);
+    background-color: #fff;
+    z-index: 2;
+}
+     .IconContent {
+        flex-direction: row;
+        width: 80vw;
+        padding: 0;
+        
+    }
+    
+    .IconBundle {
+        width: 20vw !important;
+        margin: 5vw;
+    }
+    
+    .set2 {
+        width: 40vw !important;
+    }
+    
+    .IconBundle svg {
+        width: 15vw !important;
+/*
+        padding: 5vw;
+        margin: 0 auto !important;
+*/
+    }
+    
+    .program {
+        font-size: 1.5em;
+        line-height: 3;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+        padding-bottom: 10vw;
+
+        
+    }
+
+
+}
